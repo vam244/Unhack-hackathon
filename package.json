@@ -1,6 +1,7 @@
 {
   "name": "duhacks",
   "version": "0.1.0",
+  "homepage": "https://ieeesb-nitdgp.github.io/Unhack-hackathon/",
   "private": true,
   "dependencies": {
     "@devexpress/dx-core": "^2.7.6",
