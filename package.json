@@ -1,5 +1,5 @@
 {
-  "name": "duhacks",
+  "name": "hackhustle",
   "version": "0.1.0",
   "homepage": "https://ieeesb-nitdgp.github.io/Unhack-hackathon/",
   "private": true,
@@ -85,11 +85,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasu-1/duhacks.git"
+    "url": "git+https://github.com/ieeesb-nitdgp/Unhack-hackathon"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vasu-1/duhacks/issues"
+    "url": "https://github.com/ieeesb-nitdgp/Unhack-hackathon/issues"
   }
 }

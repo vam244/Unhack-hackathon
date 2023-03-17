@@ -56,7 +56,7 @@ function Myinfo() {
 
       <div
         class="apply-button"
-        data-hackathon-slug="duhacks"
+        data-hackathon-slug="unhack"
         data-button-theme="light"
       // style="height: 44px; width: 312px"
       ></div>
