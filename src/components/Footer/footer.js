@@ -64,21 +64,21 @@ export default function Footer() {
           <a target="_blank"href={SOCIALS.email}><i class="iconlink fa-solid fa-envelope"></i></a>
         </div>
       </div>
-      <div class="link-boxes">
+      {/* <div class="link-boxes">
         <ul class="box1 input-box1">
-          {/*<li class="link_name">Subscribe</li>*/}
+          <li class="link_name">Subscribe</li>
           <img src={dsc} className="imgfooterdsc" />
         </ul>
-      </div>
+      </div> */}
     </div>
-    <div class="bottom-details">
+    {/* <div class="bottom-details">
       <div class="bottom_text">
         <span class="copyright_text">Copyright © 2022 DUHacks</span>
         <span class="policy_terms">
           Made with ❤️
         </span>
       </div>
-    </div>
+    </div> */}
   </footer>
 
     </div>

@@ -236,89 +236,6 @@ export default function HomePage(props) {
         <center>
 
           <div class="containertrack">
-            <div class="cardtrack">
-              <div class="boxtrack">
-                <div class="contenttrack">
-                  {/*<h1>Polygon</h1>*/}
-                  <img className="imgtrack" src={polygon} />
-                  <br /><br />
-                  <b><lu>
-                    <li>₹10,000 for the best hack built on Ethereum,</li>
-                    <li>or ₹15,000 for the best hack built on Ethereum + Polygon.</li>
-                    <li>Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!</li>
-                  </lu></b>
-                  <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">Read More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="cardtrack">
-              <div class="boxtrack">
-                <div class="contenttrack">  
-                  <img className="imgtrack" src={koii} />
-                  <br /><br />
-                  <b>
-
-                    <lu>
-
-                      <li>$200 prize for best use of koii network.</li>
-                      <li>$100 prize for second best use of koii network.</li>
-                      <h5>Guidelines:</h5>
-                      <lu>
-                        
-                        <li>UI must be responsive.</li>
-                        <li>Prizes may vary based on the project complexity.</li>
-                      </lu>
-                      
-
-                    </lu>
-
-                  </b>
-                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
-                </div>
-              </div>
-            </div>
-
-            <div class="cardtrack">
-              <div class="boxtrack">
-                <div class="contenttrack">  
-                  <img className="imgtrack" src={alan} />
-                  <br /><br />
-                  <b>
-
-                    <lu>
-
-                      <li>Alan track prize winner ₹7,500</li>
-                      <h5>Guidelines:</h5>
-                      <lu>
-                        
-                        <li>UI must be responsive.</li>
-                        <li>Project must use the Alan Ai slots method in the project.</li>
-                        <li>Project should be live.</li>
-                      </lu>
-                      
-
-                    </lu>
-
-                  </b>
-                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
-                </div>
-              </div>
-            </div>
-
-            <div class="cardtrack">
-              <div class="boxtrack">
-                <div class="contenttrack">
-                  {/*<h1>Filecoin</h1>*/}
-                  <img className="imgtrack" src={filecoin} />
-                  <br /><br />
-                  <b><lu>
-                    <li>₹20000 for best use of IPFS and/or Filecoin.</li>
-                  </lu></b>
-                  <a href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203">Read More</a>
-                </div>
-              </div>
-            </div>
 
             {/*<div class="cardtrack">
               <div class="boxtrack">
@@ -386,7 +303,7 @@ export default function HomePage(props) {
 
         {JudgesInfo.map(TeamMembers)} */}
 
-        <h1 id="teams">Our Team</h1>
+        {/* <h1 id="teams">Our Team</h1> */}
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
@@ -394,7 +311,7 @@ export default function HomePage(props) {
             content="Interested in joining our team"
           />
         )} */}
-        {TeamInfo.map(TeamMembers)}
+        {/* {TeamInfo.map(TeamMembers)} */}
         {/* ********Team ending here ***** */}
 
         {/* ********Team ending here ***** */}

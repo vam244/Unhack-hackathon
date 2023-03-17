@@ -24,7 +24,8 @@
   justify-content: flex-end;
 }
 .wrap .row section{
-  background: rgb(237, 237, 237);
+  background: rgb(16 7 57);
+  box-shadow: rgb(0 0 0 / 34%) 2px 2px 7px 0px;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 15px;
