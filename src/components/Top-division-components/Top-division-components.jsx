@@ -54,11 +54,11 @@ function Myinfo() {
 </a>
       */}
 
-      <div
-        class="apply-button"
-        data-hackathon-slug="unhack"
+      <div 
+        className="apply-button" 
+        data-hackathon-slug="unhack" 
         data-button-theme="light"
-      // style="height: 44px; width: 312px"
+        style={{ height: "44px", width: "312px" }}
       ></div>
       &nbsp;&nbsp;
       {/* <a
