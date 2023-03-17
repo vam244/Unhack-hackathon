@@ -39,42 +39,42 @@ const NAVBAR = () => {
     };
   }, []);
   const [toggle, setToggle] = useState(true);
-  const [color, setColor] = useState("#121930");
+  const [color, setColor] = useState("");
 
   const navigation = useRef();
 
-  // const listenScrollEvent = e => {
-  //   if (window.scrollY > 800) {
-  //     setColor("rgba(57, 174, 247)");
-  //   } else {
-  //     setColor("#121930");
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", listenScrollEvent);
-  //   console.log(navigation);
-  // }, []);
-
-  const handleOutsideCick = (event, ref) => {
-    if (!ref.current.contains(event.target)) {
-      setToggle(true);
+  const listenScrollEvent = e => {
+    if (window.scrollY > 80) {
+      setColor("#0f0a25");
     } else {
-      setToggle(false);
+      setColor("");
     }
   };
 
   useEffect(() => {
-    document.addEventListener("mousedown", e =>
-      handleOutsideCick(e, navigation)
-    );
-
-    return () => {
-      document.removeEventListener("mousedown", e =>
-        handleOutsideCick(e, navigation)
-      );
-    };
+    window.addEventListener("scroll", listenScrollEvent);
+    // console.log(navigation);
   }, []);
+
+  // const handleOutsideCick = (event, ref) => {
+  //   if (!ref.current.contains(event.target)) {
+  //     setToggle(true);
+  //   } else {
+  //     setToggle(false);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   document.addEventListener("mousedown", e =>
+  //     handleOutsideCick(e, navigation)
+  //   );
+
+  //   return () => {
+  //     document.removeEventListener("mousedown", e =>
+  //       handleOutsideCick(e, navigation)
+  //     );
+  //   };
+  // }, []);
 
   return (
     <Router>

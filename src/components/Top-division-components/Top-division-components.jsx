@@ -8,7 +8,7 @@ function Btn(props) {
   return (
     <div
       className="apply-button"
-      data-hackathon-slug="DUHacks"
+      data-hackathon-slug="unhack"
       data-button-theme="light"
       style={{ height: "44px", width: "312px" }}
     ></div>
@@ -72,7 +72,7 @@ function Myinfo() {
         </button>
       </a>
       <br /><br /><br />
-      <a href="https://duhacks.devfolio.co/" target="_blank"><button>Learn More</button></a>
+      {/* <a href="https://duhacks.devfolio.co/" target="_blank"><button>Learn More</button></a> */}
     </div>
 
 

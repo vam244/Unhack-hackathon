@@ -1,4 +1,4 @@
-import team from "./Assets/team.gif";
+import homebg from "./Assets/home-bg.png";
 import digilogo from "./Assets/sponsorsLogos/digilogo.png";
 import devfolio from "./Assets/sponsorsLogos/devfolio.png";
 import filecoin from "./Assets/sponsorsLogos/filecoin.png";
@@ -47,11 +47,11 @@ import aneri from "./Assets/teami/Aneri_Sonani.jpg";
 
 
 const TOP_SECTION = {
-  TITLE: "DUHacks",
-  Typed_effect: ["16 July - 17 July", "36 hours of creation", "Win awesome prizes", "Events And Sessions"],
+  TITLE: "HackHustle",
+  Typed_effect: ["25 March - 26 March", "Win awesome prizes", "Events And Sessions"],
   SHORT_DESCRIPTION:
-    "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 1000+ students.",
-  IMG_SRC: team,
+    "Join us on 25th and 26th of March 2023 for 2 days of creation, innovation, & fun.",
+  IMG_SRC: homebg,
   DISCORD_LINK: "https://discord.gg/cvHPEK7U3v",
   JUDGES_FORM_LINK:
     "#Jugdes Form Link",

@@ -139,7 +139,7 @@ export default function HomePage(props) {
   }, []);
 
   return (
-    <div id="top" className="Whole_div" style={{ backgroundImage: `url(${pattern})` }}>
+    <div id="top" className="Whole_div">
       <div className="color_sectiom">
         <Container fluid>
           <Row className="Row info">
