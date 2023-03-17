@@ -9,7 +9,7 @@ import "./footer.scss";
 // import TermsOfUse from "./Terms of use.pdf";
 // import Twitter from "./icons8-twitter.svg";
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
-import logo from "../navbar/LOGO.png";
+import logo from '../../Module/Assets/logo.png';
 import dsc from "./dsc.png";
 // import cross from "./cross.svg";
 import {SOCIALS, FOOTER} from "../../Module/General";
@@ -54,7 +54,7 @@ export default function Footer() {
       <div class="top">
         <div class="logo-details">
           <img src={logo} className="imgfooter" />
-          <span class="logo_name">&nbsp;DUHacks</span>
+          <span class="logo_name">&nbsp;HACKHUSTLE</span>
         </div>
         <div class="media-icons">
           <a target="_blank" href={SOCIALS.discord}><i class="iconlink fab fa-discord"></i></a>

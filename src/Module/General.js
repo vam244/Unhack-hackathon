@@ -47,7 +47,7 @@ import aneri from "./Assets/teami/Aneri_Sonani.jpg";
 
 
 const TOP_SECTION = {
-  TITLE: "HackHustle",
+  TITLE: "HACKHUSTLE",
   Typed_effect: ["25 March - 26 March", "Win awesome prizes", "Events And Sessions"],
   SHORT_DESCRIPTION:
     "Join us on 25th and 26th of March 2023 for 2 days of creation, innovation, & fun.",
