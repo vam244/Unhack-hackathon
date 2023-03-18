@@ -339,9 +339,9 @@ const sponsorLogos = [
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
   [{ src: devfolio, link: "https://devfolio.co/" },{ src: polygon, link: "https://polygon.technology/" },{ src: filecoin, link: "https://filecoin.io/" }],
-  [{ src: replit, link: "https://replit.com/" }, { src: solana, link: "#" },],
-  [{src: ieee, link: "#"}, {src: ieee_cs, link: "#"}],
-  [{ src: gdg_dgp, link: "#" }, { src: gdg_kol, link: "#" }]
+  [{ src: replit, link: "https://replit.com/" }, { src: solana, link: "https://solana.com/" },],
+  [{src: ieee, link: "https://www.ieee.org/"}, {src: ieee_cs, link: "https://www.computer.org/"}],
+  [{ src: gdg_kol, link: "https://gdgkolkata.in/" }, { src: gdg_dgp, link: "https://gdgdurgapur.in/" }]
 ];
 
 const titlesponsorLogos = [
