@@ -1,8 +1,11 @@
 import homebg from "./Assets/home-bg.png";
 import digilogo from "./Assets/sponsorsLogos/digilogo.png";
-import devfolio from "./Assets/sponsorsLogos/devfolio.png";
-import filecoin from "./Assets/sponsorsLogos/filecoin.png";
-import polygon from "./Assets/sponsorsLogos/polygon.png";
+import devfolio from "./Assets/sponsorsLogos/devfolio_white.png";
+import filecoin from "./Assets/sponsorsLogos/filecoin_white.png";
+import solana from "./Assets/sponsorsLogos/solana_white.png";
+import polygon from "./Assets/sponsorsLogos/polygon_white.png";
+import ieee from "./Assets/sponsorsLogos/ieee_white.png";
+import ieee_cs from "./Assets/sponsorsLogos/IEEE-CS_white.png";
 import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
 import alan from "./Assets/sponsorsLogos/alan.png";
 import koii from "./Assets/sponsorsLogos/koii.png";
@@ -11,7 +14,8 @@ import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
 import gfg from "./Assets/sponsorsLogos/gfg.png";
-import gdg from "./Assets/sponsorsLogos/gdg_durgapur.jpeg";
+import gdg_dgp from "./Assets/sponsorsLogos/gdg_durgapur.jpeg";
+import gdg_kol from "./Assets/sponsorsLogos/gdg_kolkata.png";
 import certopus from "./Assets/sponsorsLogos/certopus.png";
 import prayosys from "./Assets/sponsorsLogos/prayosys.png";
 import shivalika from "./Assets/sponsorsLogos/shivalika.JPG";
@@ -19,7 +23,7 @@ import shivam from "./Assets/sponsorsLogos/shivam.JPG";
 import jay_maharaj from "./Assets/sponsorsLogos/jay_maharaj.jpeg";
 import jay_bhavani from "./Assets/sponsorsLogos/jay_bhavani.jpeg";
 import maruti from "./Assets/sponsorsLogos/maruti.jpeg";
-import replit from "./Assets/sponsorsLogos/replit.png";
+import replit from "./Assets/sponsorsLogos/replit_white.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import interviewbuddy from './Assets/sponsorsLogos/ib.png'
 import digitalocean from './Assets/sponsorsLogos/do.png'
@@ -334,7 +338,10 @@ const sponsorLogos = [
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  [{ src: gdg, link: "#" }],
+  [{ src: devfolio, link: "https://devfolio.co/" },{ src: polygon, link: "https://polygon.technology/" },{ src: filecoin, link: "https://filecoin.io/" }],
+  [{ src: replit, link: "https://replit.com/" }, { src: solana, link: "#" },],
+  [{src: ieee, link: "#"}, {src: ieee_cs, link: "#"}],
+  [{ src: gdg_dgp, link: "#" }, { src: gdg_kol, link: "#" }]
 ];
 
 const titlesponsorLogos = [
