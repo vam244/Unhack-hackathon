@@ -108,10 +108,10 @@ const calenderStartingDate = {
 
 const schedule = [
   {
-    "day": "16-7-2022",
+    "day": "15-03-2023",
     "events": [
       {
-        "title": "Opening Ceremoney",
+        "title": "Registrations start",
         "timings": "8 AM - 9 AM",
         "link": "https://google.com"
       }

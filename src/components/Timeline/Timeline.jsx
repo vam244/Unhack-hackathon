@@ -13,8 +13,8 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-home"></i>
         <div class="details">
-          <span class="title">Start Registrations</span>
-          <span>1st June 2022</span>
+          <span class="title">Registrations start</span>
+          <span>25th March 2023</span>
         </div>
         {/*<p className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
         */}
@@ -24,8 +24,8 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-star"></i>
         <div class="details">
-          <span class="title">End Registrations</span>
-          <span>14th Jul 2022</span>
+          <span class="title">Workshop</span>
+          <span>25th March 2023{/*<br />6pm-8pm*/}</span>
         </div>
         {/*<p  className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
        */}
@@ -35,10 +35,10 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-rocket"></i>
         <div class="details">
-          <span class="title">Opening Ceremony</span>
-          <span>16th July 2022</span>
+          <span class="title">Hackathon starts</span>
+          <span>25th March 2023</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon opening ceremony will start 9:15 AM onwards.</p>
+        {/* <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon opening ceremony will start 9:15 AM onwards.</p> */}
         
       </section>
     </div>
@@ -46,10 +46,10 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-globe"></i>
         <div class="details">
-          <span class="title">Hackathon Starts</span>
-          <span>16th July 2022</span>
+          <span class="title">Idea presentation</span>
+          <span>26th March 2023</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon coding period will start from 10:30 AM onwards.</p>
+        {/* <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon coding period will start from 10:30 AM onwards.</p> */}
        
       </section>
     </div>
@@ -57,14 +57,14 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
-          <span class="title">Session from GeeksforGeeks</span>
-          <span>16th July 2022</span>
+          <span class="title">Hackathon Results Announcement and Felicitation</span>
+          <span>26th March 2023</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Session on Complete Interview Preperation by GeeksForGeeks on 11.30 AM Onwards.</p>
+        {/* <p className="timeline_text" style={{fontSize: "14px"}}>Session on Complete Interview Preperation by GeeksForGeeks on 11.30 AM Onwards.</p> */}
         
       </section>
     </div>
-    <div class="row row-2">
+    {/* <div class="row row-2">
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
@@ -96,7 +96,7 @@ function TimeLine() {
         <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon coding period will end on 10:30 PM.</p>
         
       </section>
-    </div>
+    </div> */}
   </div>
          </div>
     );
