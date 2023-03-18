@@ -9,7 +9,7 @@ import "./footer.scss";
 // import TermsOfUse from "./Terms of use.pdf";
 // import Twitter from "./icons8-twitter.svg";
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
-import logo from '../../Module/Assets/logo.png';
+import logo from '../../Module/Assets/ieee_logo.png';
 import dsc from "./dsc.png";
 // import cross from "./cross.svg";
 import {SOCIALS, FOOTER} from "../../Module/General";
@@ -54,13 +54,13 @@ export default function Footer() {
       <div class="top">
         <div class="logo-details">
           <img src={logo} className="imgfooter" />
-          <span class="logo_name">&nbsp;HACKHUSTLE</span>
+          <span class="logo_name">&nbsp;IEEE Student Branch NIT Durgapur</span>
         </div>
         <div class="media-icons">
-          <a target="_blank" href={SOCIALS.discord}><i class="iconlink fab fa-discord"></i></a>
-          <a target="_blank" href={SOCIALS.twitter}><i class="iconlink fab fa-twitter"></i></a>
-          <a target="_blank" href={SOCIALS.instagram}><i class="iconlink fab fa-instagram"></i></a>
+          <a target="_blank" href={SOCIALS.website}><i class="iconlink fa fa-globe"></i></a>
+          {/* <a target="_blank" href={SOCIALS.twitter}><i class="iconlink fab fa-twitter"></i></a> */}
           <a target="_blank" href={SOCIALS.linkedin}><i class="iconlink fab fa-linkedin-in"></i></a>
+          <a target="_blank" href={SOCIALS.instagram}><i class="iconlink fab fa-instagram"></i></a>
           <a target="_blank"href={SOCIALS.email}><i class="iconlink fa-solid fa-envelope"></i></a>
         </div>
       </div>

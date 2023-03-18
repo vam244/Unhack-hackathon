@@ -65,12 +65,12 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=",
-  discord: "https://discord.gg/cvHPEK7U3v",
-  linkedin: "https://www.linkedin.com/company/duhacks/",
-  twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
-  email: "mailto:contact@duhacks.tech",
-  mail: "contact@duhacks.tech"
+  instagram: "https://www.instagram.com/ieeesb_nitdgp/?hl=en",
+  discord: "#",
+  linkedin: "https://in.linkedin.com/company/ieeesbnitdgp",
+  website: "https://edu.ieee.org/in-nitdgp/",
+  email: "mailto:ieeesb.nitdgp@gmail.com",
+  mail: "ieeesb.nitdgp@gmail.com"
 };
 
 const MIDDLE_SECTION = {

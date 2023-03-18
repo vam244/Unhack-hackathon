@@ -7,10 +7,16 @@ footer{
 }
 .logo_name{
   font-weight: bold;
+  font-size: 24px;
 }
 .imgfooter{
   // width: 60px;
-  height: 50px;
+  height: 80px;
+
+  @media screen and (max-width:400px){
+    display: block;
+    margin: auto;
+  }
 }
 .imgfooterdsc{
   width: auto;
