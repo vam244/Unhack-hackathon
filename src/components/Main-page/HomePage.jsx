@@ -319,10 +319,10 @@ export default function HomePage(props) {
 
         {/* ********Team ending here ***** */}
         <br />
-        {/* <h1 id="faqs">FAQs</h1> */}
+        <h1 id="faqs">FAQs</h1>
         {/* ********Frequently asked Questions here ***** */}
-        {/* <div className="Myfaqs">
-          {frequentlyAskedQuestions.map(FrequentlyAsked)} */}
+        {/* <div className="Myfaqs">*/}
+          {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         {/* </div> */}
       </Container>

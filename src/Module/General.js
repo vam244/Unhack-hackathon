@@ -393,40 +393,29 @@ const frequentlyAskedQuestions = [
     [
       {
         label: "What is a hackathon?",
-        content:
-          'A hackathon is a 36 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.'
+        content: 'A hackathon is an event, usually lasting one or more days, where people come together to work on projects and solve problems in a collaborative and competitive environment.'
       },
       {
-        label: "Who can attend?",
-        content: "DUHacks is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online."
+        label: "How long will HackHustle last?",
+        content: "HackHustle is a 2-day hackathon in which all participants can sharpen their skills and connect with people to grow together."
       },
       {
-        label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general."
+        label: "What kind of skills do I need to participate in a hackathon?",
+        content: "You don't necessarily need to have a stipulated set of skills as long as you have the ability to work in a team and communicate effectively and can learn on the go. All you need is the enthusiasm to solve a problem and present them to the judges in the final round."
       },
-      {
-        label: "How team formation works?",
-        content: "You can form a team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team."
-      }
     ],
     [
       {
-        label: "How to register myself in the hackathon?",
-        content: "All you need is to register yourself on devfolio and join discord, we will guide you through everything there."
+        label: "Who can participate in HackHustle?",
+        content: "Anyone can participate in HackHustle, regardless of their background or skill level. HackHustle is open to all students regardless of their branch of study."
       },
       {
-        label: "I have more questions?",
-        content: "Reach us directly at (contact@duhacks.tech) we would happy to help you."
-      }
-      ,
+        label: "Do I need to have a team to participate in a hackathon?",
+        content: "No, you don't compulsorily need to have a team to participate in HackHustle. However, we are allowing a maximum of 4 members to participate as a team. Individual entries or participation are also encouraged."
+      },
       {
-        label: "Can I participate as a individual?",
-        content: "No, Because our goal is collaborative learning, we encourage everyone to participate as a team of at least two people."
-      }
-      ,
-      {
-        label: "Will there be swag?",
-        content: "Yes, Participants and winners will receive swags, certificates, promo codes, and much more!"
+        label: "Are there any prizes for winning a hackathon?",
+        content: "Many hackathons offer prizes for the winning teams, which can include cash, sponsor gifts, and other incentives. However, the main goal of a hackathon is usually to build something innovative and solve a problem, rather than to win a prize." 
       }
     ]
   ],
