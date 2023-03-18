@@ -11,6 +11,7 @@ import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
 import gfg from "./Assets/sponsorsLogos/gfg.png";
+import gdg from "./Assets/sponsorsLogos/gdg_durgapur.jpeg";
 import certopus from "./Assets/sponsorsLogos/certopus.png";
 import prayosys from "./Assets/sponsorsLogos/prayosys.png";
 import shivalika from "./Assets/sponsorsLogos/shivalika.JPG";
@@ -69,9 +70,9 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is DUHacks?",
+  TITLE: "What is HackHustle?",
   LONG_DESCRIPTION:
-    "It is a hybrid mode hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150+ students offline in the college with proper arrangement and 850+ students online.",
+    "It is a 2 day hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals.",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -333,7 +334,7 @@ const sponsorLogos = [
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
+  [{ src: gdg, link: "#" }],
 ];
 
 const titlesponsorLogos = [

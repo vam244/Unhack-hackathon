@@ -191,7 +191,9 @@ export default function HomePage(props) {
         </Row>
         <div class="row1-container">
 
-          <div class="box red">
+          <h3>TBA</h3>
+
+          {/* <div class="box red">
             <h2>Overall First</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png" alt="" />
             <h4><b>Prize</b>: Rs. 7000 <br />Swags & Promo Codes<br /><br /></h4>
           </div>
@@ -204,7 +206,7 @@ export default function HomePage(props) {
           <div class="box box-down blue">
             <h2>Overall Third</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png" alt="" />
             <h4><b>Prize</b>: Rs. 2000 <br />Swags & Promo Codes<br /><br /></h4>
-          </div>
+          </div> */}
         </div>
         {/*      <div class="row2-container">
         <div class="box orange">
@@ -214,7 +216,7 @@ export default function HomePage(props) {
         </div>
       </div>*/}
         <div class="row1-container margfromsponsor">
-          <div class="box box-down color2">
+          {/* <div class="box box-down color2">
             <h2>Best Women Team</h2><img class="imgright" src="https://img.icons8.com/cute-clipart/64/000000/granny-lesbian.png" alt="" />
             <h4><b>Prize</b>: Rs. 1500 <br />Swags & Promo Codes<br /><br /></h4>
           </div>
@@ -227,7 +229,7 @@ export default function HomePage(props) {
           <div class="box box-down orange">
             <h2>All Participants</h2><img class="imgright" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-prizes-circus-flaticons-lineal-color-flat-icons.png" alt="" />
             <h4><b>Participation Certificate</b><br />Promo Codes<br /><br /></h4>
-          </div>
+          </div> */}
         </div>
 
          
@@ -269,7 +271,8 @@ export default function HomePage(props) {
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          <h1 className="">Title Sponsors</h1>
+          {sponsorLogos.map(SponsorGroup)}
+          {/* <h1 className="">Title Sponsors</h1>
           <br />
           {titlesponsorLogos.map(SponsorGroup)}
           <br /><br />
@@ -285,14 +288,14 @@ export default function HomePage(props) {
           <br />
           {bronzeponsorLogos.map(SponsorGroup)}
           <br /><br />
-          {/* <SponsorUS /> */}<br /><br />
+          <br /><br />
           <h1 className="">Design & Media Partners</h1>
           <br />
           {designlogo.map(SponsorGroup)}
           <br /><br />
           <h1 className="">Food Sponsors</h1>
           <br />
-          {FoodLogos.map(SponsorGroup)}
+          {FoodLogos.map(SponsorGroup)} */}
         </Row>
         {/* ********Sponsors ending here ***** */}
 
@@ -316,12 +319,12 @@ export default function HomePage(props) {
 
         {/* ********Team ending here ***** */}
         <br />
-        <h1 id="faqs">FAQs</h1>
+        {/* <h1 id="faqs">FAQs</h1> */}
         {/* ********Frequently asked Questions here ***** */}
-        <div className="Myfaqs">
-          {frequentlyAskedQuestions.map(FrequentlyAsked)}
+        {/* <div className="Myfaqs">
+          {frequentlyAskedQuestions.map(FrequentlyAsked)} */}
           {/* ********Frequently asked Questions ending here ***** */}
-        </div>
+        {/* </div> */}
       </Container>
       <br />
       <center><div
