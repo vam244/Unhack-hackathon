@@ -22,6 +22,17 @@ function TimeLine() {
     </div>
     <div class="row row-2">
       <section>
+        <i class="icon fas fa-home"></i>
+        <div class="details">
+          <span class="title">Registrations end</span>
+          <span>24th March 2023</span>
+        </div>
+        {/*<p className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        */}
+      </section>
+    </div>
+    <div class="row row-1">
+      <section>
         <i class="icon fas fa-star"></i>
         <div class="details">
           <span class="title">Workshop</span>
@@ -31,7 +42,7 @@ function TimeLine() {
        */}
       </section>
     </div>
-    <div class="row row-1">
+    <div class="row row-2">
       <section>
         <i class="icon fas fa-rocket"></i>
         <div class="details">
@@ -42,7 +53,7 @@ function TimeLine() {
         
       </section>
     </div>
-    <div class="row row-2">
+    <div class="row row-1">
       <section>
         <i class="icon fas fa-rocket"></i>
         <div class="details">
@@ -53,7 +64,7 @@ function TimeLine() {
         
       </section>
     </div>
-    <div class="row row-1">
+    <div class="row row-2">
       <section>
         <i class="icon fas fa-globe"></i>
         <div class="details">
@@ -64,7 +75,7 @@ function TimeLine() {
        
       </section>
     </div>
-    <div class="row row-2">
+    <div class="row row-1">
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
