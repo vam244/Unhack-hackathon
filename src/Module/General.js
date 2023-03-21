@@ -14,8 +14,14 @@ import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
 import gfg from "./Assets/sponsorsLogos/gfg.png";
-import gdg_dgp from "./Assets/sponsorsLogos/gdg_durgapur.jpeg";
-import gdg_kol from "./Assets/sponsorsLogos/gdg_kolkata.png";
+import gdg_dgp from "./Assets/sponsorsLogos/gdg_dgp.png";
+import gdg_kol from "./Assets/sponsorsLogos/gdg_kol.png";
+import lemon_grass from "./Assets/sponsorsLogos/lemon_grass.png";
+import rosenfeld from "./Assets/sponsorsLogos/rosenfeld.jpeg";
+import wiley from "./Assets/sponsorsLogos/wiley_white.jpg";
+import grabon from "./Assets/sponsorsLogos/grabon.png";
+import give_my_cert from "./Assets/sponsorsLogos/give_my_cert.png";
+import axure from "./Assets/sponsorsLogos/axure_white.jpg";
 import certopus from "./Assets/sponsorsLogos/certopus.png";
 import prayosys from "./Assets/sponsorsLogos/prayosys.png";
 import shivalika from "./Assets/sponsorsLogos/shivalika.JPG";
@@ -338,19 +344,24 @@ const sponsorLogos = [
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  [{ src: devfolio, link: "https://devfolio.co/" },{ src: polygon, link: "https://polygon.technology/" },{ src: filecoin, link: "https://filecoin.io/" }],
-  [{ src: replit, link: "https://replit.com/" }, { src: solana, link: "https://solana.com/" },],
-  [{src: ieee, link: "https://www.ieee.org/"}, {src: ieee_cs, link: "https://www.computer.org/"}],
-  [{ src: gdg_kol, link: "https://gdgkolkata.in/" }, { src: gdg_dgp, link: "https://gdgdurgapur.in/" }]
+  [{src: ieee, link: "https://www.ieee.org/"}, { src: gdg_kol, link: "https://gdgkolkata.in/" }, { src: gdg_dgp, link: "https://gdgdurgapur.in/" }],  
+  [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" },{ src: filecoin, link: "https://filecoin.io/" }],
+  [{ src: replit, link: "https://replit.com/" }, { src: solana, link: "https://solana.com/" }, { src: rosenfeld, link:"https://rosenfeldmedia.com/"}],
+  [{ src: axure, link: "https://www.axure.com/"}]
 ];
 
 const titlesponsorLogos = [
-  [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" }], //Array 1
+  [{}, {src: ieee_cs, link: "https://www.computer.org/"}],
+  // [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
 ];
+
+const diamondsponsorLogos = [
+  // [{ src: gdg_kol, link: "https://gdgkolkata.in/" }, { src: gdg_dgp, link: "https://gdgdurgapur.in/" }]
+]
 
 const goldsponsorLogos = [
   // [  ], //Array 1
@@ -378,6 +389,11 @@ const bronzeponsorLogos = [
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
 ];
+
+const knowlwdgesponsorLogos = [[{}, {src: wiley, link: "https://www.wiley.com/en-in"}]]
+const savingssponsorLogos = [[{}, {src: grabon, link: "https://www.grabon.in/"}]]
+const certificatesponsorLogos = [[{}, {src: give_my_cert, link: "https://givemycertificate.com/"}]]
+const culinarysponsorLogos = [[{}, {src: lemon_grass, link: "https://lemongrassrestaurant.in/"}]]
 
 const FoodLogos = [
   [{src: maruti, link: "#"},{src: jay_bhavani, link: "#"},{src: jay_maharaj, link: "#"}],
@@ -430,6 +446,7 @@ export {
   Prizeinfo,
   sponsorLogos,
   titlesponsorLogos,
+  diamondsponsorLogos,
   goldsponsorLogos,
   silversponsorLogos,
   bronzeponsorLogos,
@@ -439,5 +456,9 @@ export {
   schedule,
   calenderStartingDate,
   designlogo,
-  FoodLogos
+  FoodLogos,
+  knowlwdgesponsorLogos,
+  savingssponsorLogos,
+  certificatesponsorLogos,
+  culinarysponsorLogos
 };

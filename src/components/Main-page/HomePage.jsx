@@ -34,7 +34,12 @@ import {
   bronzeponsorLogos,
   silversponsorLogos,
   goldsponsorLogos,
-  FoodLogos
+  diamondsponsorLogos,
+  FoodLogos,
+  knowlwdgesponsorLogos,
+  savingssponsorLogos,
+  certificatesponsorLogos,
+  culinarysponsorLogos
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -104,9 +109,9 @@ export default function HomePage(props) {
 
   window.onscroll = () => {
     toggleTopButton();
-    console.log(document.body.scrollHeight);
-    console.log(document.body.scrollTop);
-    console.log("Diff", document.body.scrollHeight - document.body.scrollTop);
+    // console.log(document.body.scrollHeight);
+    // console.log(document.body.scrollTop);
+    // console.log("Diff", document.body.scrollHeight - document.body.scrollTop);
   }
 
   const scrollToTop = (event) => {
@@ -272,15 +277,35 @@ export default function HomePage(props) {
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           {sponsorLogos.map(SponsorGroup)}
-          {/* <h1 className="">Title Sponsors</h1>
+          <h1 className="">Title Sponsor</h1>
           <br />
           {titlesponsorLogos.map(SponsorGroup)}
           <br /><br />
-          <h1 className="">Gold Sponsors</h1>
+          {/* <h1 className="">Diamond Sponsors</h1>
+          <br />
+          {diamondsponsorLogos.map(SponsorGroup)}
+          <br /><br /> */}
+          {/* <h1 className="">Gold Sponsors</h1>
           <br />
           {goldsponsorLogos.map(SponsorGroup)}
+          <br /><br /> */}
+          <h1 className="">Knowledge Partner</h1>
+          <br />
+          {knowlwdgesponsorLogos.map(SponsorGroup)}
           <br /><br />
-          <h1 className="">Silver Sponsors</h1>
+          <h1 className="">Savings Partner</h1>
+          <br />
+          {savingssponsorLogos.map(SponsorGroup)}
+          <br /><br />
+          <h1 className="">Culinary Partner</h1>
+          <br />
+          {culinarysponsorLogos.map(SponsorGroup)}
+          <br /><br />
+          <h1 className="">Certificate Partner</h1>
+          <br />
+          {certificatesponsorLogos.map(SponsorGroup)}
+          <br /><br />
+          {/* <h1 className="">Silver Sponsors</h1>
           <br />
           {silversponsorLogos.map(SponsorGroup)}
           <br /><br />
