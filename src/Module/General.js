@@ -18,7 +18,7 @@ import gdg_dgp from "./Assets/sponsorsLogos/gdg_dgp.png";
 import gdg_kol from "./Assets/sponsorsLogos/gdg_kol.png";
 import lemon_grass from "./Assets/sponsorsLogos/lemon_grass.png";
 import rosenfeld from "./Assets/sponsorsLogos/rosenfeld.jpeg";
-import wiley from "./Assets/sponsorsLogos/wiley_white.jpg";
+import wiley from "./Assets/sponsorsLogos/wiley_white.png";
 import grabon from "./Assets/sponsorsLogos/grabon.png";
 import give_my_cert from "./Assets/sponsorsLogos/give_my_cert.png";
 import axure from "./Assets/sponsorsLogos/axure_white.jpg";
