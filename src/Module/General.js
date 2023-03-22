@@ -21,7 +21,7 @@ import rosenfeld from "./Assets/sponsorsLogos/rosenfeld.jpeg";
 import wiley from "./Assets/sponsorsLogos/wiley_white.png";
 import grabon from "./Assets/sponsorsLogos/grabon.png";
 import give_my_cert from "./Assets/sponsorsLogos/give_my_cert.png";
-import axure from "./Assets/sponsorsLogos/axure_white.jpg";
+import axure from "./Assets/sponsorsLogos/axure.png";
 import certopus from "./Assets/sponsorsLogos/certopus.png";
 import prayosys from "./Assets/sponsorsLogos/prayosys.png";
 import shivalika from "./Assets/sponsorsLogos/shivalika.JPG";
