@@ -10,7 +10,7 @@ import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
 import alan from "./Assets/sponsorsLogos/alan.png";
 import koii from "./Assets/sponsorsLogos/koii.png";
 // import celo from "./Assets/sponsorsLogos/celo.png";
-import echo3d from "./Assets/sponsorsLogos/echo3d.png";
+import echo3d from "./Assets/sponsorsLogos/echo3d.webp";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
 import gfg from "./Assets/sponsorsLogos/gfg.png";
@@ -347,7 +347,7 @@ const sponsorLogos = [
   [{src: ieee, link: "https://www.ieee.org/"}, { src: gdg_kol, link: "https://gdgkolkata.in/" }, { src: gdg_dgp, link: "https://gdgdurgapur.in/" }],  
   [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" },{ src: filecoin, link: "https://filecoin.io/" }],
   [{ src: replit, link: "https://replit.com/" }, { src: solana, link: "https://solana.com/" }, { src: rosenfeld, link:"https://rosenfeldmedia.com/"}],
-  [{ src: axure, link: "https://www.axure.com/"}]
+  [{ src: axure, link: "https://www.axure.com/"}, { src: echo3d, link: "https://www.echo3d.co/" }]
 ];
 
 const titlesponsorLogos = [
