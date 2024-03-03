@@ -8,7 +8,7 @@
 }
 .dev-button {
   align-items: center;
-  background-color: #3770ff;
+  background-color: #ff37ee;
   border-radius: 4px;
   color: #fff;
   display: inline-flex;
@@ -64,7 +64,7 @@ button {
   border-radius: 19px;
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  background-color: #6a63b7;
+  background-color: #ea70da;
   font-weight: 300;
   position: relative;
 }

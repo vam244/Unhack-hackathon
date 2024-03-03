@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 footer{
   position: relative;
-  background: #edeff5;
+  background-color: rgb(70, 29, 65) ;
   width: 100%;
   margin-top: 50px;
 }
@@ -34,7 +34,7 @@ footer .content .top{
   /* margin-bottom: 50px; */
 }
 .content .top .logo-details{
-  color: black;
+  color: rgb(251, 251, 251);
   font-size: 30px;
 }
 .content .top .media-icons{
@@ -54,7 +54,7 @@ footer .content .top{
   transition: all 0.4s ease;
 }
 .iconlink{
-  color: black;
+  color: rgb(253, 250, 250);
 }
 footer .content .link-boxes{
   width: 90%;
@@ -65,7 +65,7 @@ footer .content .link-boxes .box1{
   width: calc(100% / 5 - 10px);
 }
 .content .link-boxes .box .link_name{
-  color: black;
+  color: rgb(249, 246, 246);
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -85,7 +85,7 @@ footer .content .link-boxes .box1{
   list-style: none;
 }
 .content .link-boxes .box1 li a{
-  color: black;
+  color: rgb(250, 248, 248);
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
@@ -131,7 +131,7 @@ footer .content .link-boxes .box1{
 } */
 footer .bottom-details{
   width: 100%;
-  background: #0F0844;
+  background: #fcfcfc;
 }
 footer .bottom-details .bottom_text{
   max-width: 1250px;

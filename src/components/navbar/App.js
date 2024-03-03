@@ -106,16 +106,16 @@ const NAVBAR = () => {
                   <span className="links">Themes </span>{" "}
                 </Link>
               </li>
-              <li className="liw list--general">
+              {/* <li className="liw list--general">
                 <Link to={`#prizes`}>
                   <span className="links">Prizes </span>{" "}
                 </Link>
-              </li>
-              <li className="liw list--general">
+              </li> */}
+              {/* <li className="liw list--general">
                 <Link to={`#sponsors`}>
                   <span className="links">Sponsors </span>{" "}
                 </Link>
-              </li>
+              </li> */}
               {/* <li className="liw list--general">
                 <Link to={`#teams`}>
                   <span className="links">Team </span>{" "}

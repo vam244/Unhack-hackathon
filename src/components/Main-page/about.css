@@ -5,7 +5,7 @@
   background-size: auto 100vh;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  background-color: rgb(15, 10, 37) ;
+  background-color: rgb(69, 24, 63) ;
   color: rgb(232, 230, 227) !important;
 }
 
@@ -17,7 +17,7 @@
 
 .color_sectiom {
   /* background-color: #121930; */
-  background-image: linear-gradient(60deg, rgb(15, 10, 37) 55%, rgb(3, 55, 187)) !important;
+  background-image: linear-gradient(60deg, rgb(69, 24, 63) 55%, rgb(187, 3, 184)) !important;
   padding-bottom: 5rem;
 }
 

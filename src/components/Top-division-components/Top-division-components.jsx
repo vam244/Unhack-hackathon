@@ -72,7 +72,7 @@ function Myinfo() {
         </button>
       </a> */}
       <br /><br /><br />
-      {/* <a href="https://duhacks.devfolio.co/" target="_blank"><button>Learn More</button></a> */}
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwCBiZgqHuvRBvjevXfgxd742cZXZk1vNG4m9ILx47XYLT6Q/viewform?usp=sf_link" target="_blank"><button>Register now</button></a>
     </div>
 
 

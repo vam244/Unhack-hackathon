@@ -272,58 +272,7 @@ export default function HomePage(props) {
         {/* ********Prizes ending here ***** */}
 
 
-        {/* ********Sponsors here ***** */}
-
-        <Row className="sponsorSection" id="sponsors">
-          <SponsorsHead />
-          {sponsorLogos.map(SponsorGroup)}
-          <h1 className="">Title Sponsor</h1>
-          <br />
-          {titlesponsorLogos.map(SponsorGroup)}
-          <br /><br />
-          {/* <h1 className="">Diamond Sponsors</h1>
-          <br />
-          {diamondsponsorLogos.map(SponsorGroup)}
-          <br /><br /> */}
-          {/* <h1 className="">Gold Sponsors</h1>
-          <br />
-          {goldsponsorLogos.map(SponsorGroup)}
-          <br /><br /> */}
-          <h1 className="">Knowledge Partner</h1>
-          <br />
-          {knowlwdgesponsorLogos.map(SponsorGroup)}
-          <br /><br />
-          <h1 className="">Savings Partner</h1>
-          <br />
-          {savingssponsorLogos.map(SponsorGroup)}
-          <br /><br />
-          <h1 className="">Culinary Partner</h1>
-          <br />
-          {culinarysponsorLogos.map(SponsorGroup)}
-          <br /><br />
-          <h1 className="">Certificate Partner</h1>
-          <br />
-          {certificatesponsorLogos.map(SponsorGroup)}
-          <br /><br />
-          {/* <h1 className="">Silver Sponsors</h1>
-          <br />
-          {silversponsorLogos.map(SponsorGroup)}
-          <br /><br />
-          <h1 className="">Bronze Sponsors</h1>
-          <br />
-          {bronzeponsorLogos.map(SponsorGroup)}
-          <br /><br />
-          <br /><br />
-          <h1 className="">Design & Media Partners</h1>
-          <br />
-          {designlogo.map(SponsorGroup)}
-          <br /><br />
-          <h1 className="">Food Sponsors</h1>
-          <br />
-          {FoodLogos.map(SponsorGroup)} */}
-        </Row>
-        {/* ********Sponsors ending here ***** */}
-
+       
 
         {/* ********Team here ***** */}
         {/* <h1 id="team">Mentor</h1>
