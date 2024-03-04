@@ -106,11 +106,11 @@ const NAVBAR = () => {
                   <span className="links">Themes </span>{" "}
                 </Link>
               </li>
-              {/* <li className="liw list--general">
-                <Link to={`#prizes`}>
-                  <span className="links">Prizes </span>{" "}
+              <li className="liw list--general">
+                <Link to={`#timeline`}>
+                  <span className="links">Timeline</span>{" "}
                 </Link>
-              </li> */}
+              </li>
               {/* <li className="liw list--general">
                 <Link to={`#sponsors`}>
                   <span className="links">Sponsors </span>{" "}
