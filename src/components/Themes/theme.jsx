@@ -10,7 +10,6 @@ import transportation from './img/transportation.jpg';
 function ThemeType(props) {
     return (
         <div className="HackathonTheme">
-
             <div class="wrapper">
 
                 <div class="cards_wrap">
